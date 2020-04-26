@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Song Lyric</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="container">
+
+    <div class="jumbotron">
+        <div class="text">
+            <h1 class="display-4"> Lirik Lagu  </h1>
+            <p class="lead">Koleksi lirik dari semua genre lagu</p>
+        </div>
+    </div>
+
+    <div class="form">
+            <input type="text" placeholder="Artist" id="input_artist">
+            <input type="text" placeholder="Judul Lagu" id="input_title">
+            <button type="button" onclick="fetchLyrics()">Cari</button>
+    </div>
+
+    <h3 id="titleOutput"></h3>
+    <p id="lyricoutput"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

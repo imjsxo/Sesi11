@@ -1,0 +1,68 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.form {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#input_artist {
+    width: 400px;
+    height: 40px;
+    border: 2px solid #85a392;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+#input_title {
+    width: 400px;
+    height: 40px;
+    border: 2px solid #85a392;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #16817a;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: 2px solid #16817a;
+    border-radius: 4px;
+}
+
+
+.jumbotron {
+    margin-top: 10px;
+    background-image: url(jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color: #06623b;
+}
+
+.text {
+    height: 200px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+}
+
+#lyricoutput {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+#titleOutput {
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+}
